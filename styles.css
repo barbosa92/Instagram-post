@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+.post {
+    background-color: white;
+    margin: 50px 500px 0px 500px;
+}
+.post-head {
+    display: flex;
+    flex-direction: row;
+}
+.post-head :nth-child(2) {
+    margin-left: 40%;
+}
