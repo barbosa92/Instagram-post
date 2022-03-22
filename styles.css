@@ -3,12 +3,55 @@ body {
 }
 .post {
     background-color: white;
-    margin: 50px 500px 0px 500px;
+    margin: 5% 35% 0 35%;
 }
 .post-head {
     display: flex;
     flex-direction: row;
+    padding-bottom: 2%;
 }
-.post-head :nth-child(2) {
-    margin-left: 40%;
+
+.head-title {
+    display: flex;
+}
+.post-head .html-icon {
+    margin-top: 3%;
+    margin-left: 2%;
+    size: 20px;
+}
+
+.post-head .head-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 1%;  
+}
+.post-head .head-title h5, .post-head .head-title h6 {
+    margin: 0;
+    padding: 0;
+}
+.post-head .ellipsis-icon {
+    padding-top: 3%;
+    padding-left: 77%;
+}
+
+.post-bottom {
+    padding: 2%;
+}
+
+.post-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-buttons .bookmark {
+    margin-left: 60%;
+}
+
+.post-feedback {
+    padding-left: 2%;
+}
+.post-description {
+    padding-left: 2%;
+    padding-right: 2%;
 }
